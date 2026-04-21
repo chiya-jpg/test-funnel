@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Raymond R. Sultan portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F3D2A"/>
+      <stop offset="100%" stop-color="#0A2A1D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#FF8552" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#FF8552" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0%" cy="100%" r="70%">
+      <stop offset="0%" stop-color="#D4A853" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#D4A853" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <rect width="600" height="800" fill="url(#glow)"/>
+  <rect width="600" height="800" fill="url(#glow2)"/>
+
+  <!-- gold disc -->
+  <circle cx="300" cy="360" r="150" fill="#D4A853" opacity="0.18"/>
+  <circle cx="300" cy="360" r="118" fill="#D4A853"/>
+
+  <!-- initials -->
+  <text x="300" y="395"
+        font-family="Fraunces, Cormorant Garamond, Georgia, serif"
+        font-size="128" font-style="italic" font-weight="500"
+        fill="#0A2A1D" text-anchor="middle">RS</text>
+
+  <!-- divider -->
+  <line x1="220" y1="560" x2="380" y2="560" stroke="#D4A853" stroke-opacity="0.5" stroke-width="1"/>
+
+  <!-- name / role -->
+  <text x="300" y="600"
+        font-family="Fraunces, Cormorant Garamond, Georgia, serif"
+        font-size="28" font-weight="500"
+        fill="#F8F1E3" text-anchor="middle">Raymond R. Sultan, DPA, FAAPA</text>
+  <text x="300" y="630"
+        font-family="Inter, -apple-system, sans-serif"
+        font-size="14" letter-spacing="3"
+        fill="#E8C57A" text-anchor="middle">SENIOR CLINICAL LEAD</text>
+
+  <!-- SkoolDoc mark -->
+  <g transform="translate(270 700) rotate(-4)">
+    <rect width="28" height="28" rx="5" fill="#D4A853"/>
+    <path d="M14 9 v10 M9 14 h10" stroke="#0F3D2A" stroke-width="3" stroke-linecap="round" transform="rotate(4 14 14)"/>
+  </g>
+  <text x="308" y="720"
+        font-family="Fraunces, serif"
+        font-size="18" font-weight="500"
+        fill="#F8F1E3">Skool<tspan font-style="italic" fill="#FF8552">Doc</tspan></text>
+</svg>
